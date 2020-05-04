@@ -1,0 +1,320 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@700&display=swap');
+#top{
+  position:fixed;
+	bottom:40px;
+  right:40px;
+  font-size: 35px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: indigo;
+  text-decoration: none;
+  color: azure;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  scroll-behavior: unset;
+}
+.navbar{
+  background-color: indigo;
+}
+.name{
+  color: white;
+  height: 100vh;
+  background-color: indigo;
+}
+h1{
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900;
+}
+.name h2{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900;
+}
+.name h4{
+  text-align: center;
+  padding-top: 35vh;
+  font-size: 30px;
+}
+.navbar-nav{
+  margin-right: 20px;
+}
+.nav-item{
+  margin-right: 50px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#ham{
+  width: 52px;
+  position: fixed;
+  z-index: 998;
+  left: 25px;
+  top: 25px
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#arrow{
+  font-size: 35px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: white;
+  text-decoration: none;
+  color: indigo;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: none;
+  color: indigo;
+}
+#about{
+  height: 100vh;
+  overflow: hidden;
+}
+h2{
+  padding-top: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900;
+}
+#dp{
+  margin-top: 50px;
+  margin: auto;
+  margin-left: 50px;
+  border-radius: 50%;
+  width: 50%;
+}
+#f1{
+  max-width: 85%;
+}
+#edu{
+  height: 100vh;
+  overflow: hidden;
+}
+.school{
+  margin-left: 20px;
+  height: 27vh;
+  padding: 20px;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: grey;
+}
+.school h5{
+  font-weight: 700;
+}
+.col-2{
+  text-align: center;
+}
+#skill{
+  height: 100vh;
+  overflow: hidden;
+}
+#skill .col-sm{
+  padding-left:40px;
+  margin-top: 50px;
+}
+#skill .col-sm h6{
+  margin-bottom: 30px;
+}
+#exp{
+  height: 100vh;
+  overflow: hidden;
+}
+#contact{
+  height: 90vh;
+  overflow: hidden;
+}
+#contact .social .row {
+  margin-bottom: 25px;
+  margin-left: 0px;
+  justify-items: baseline;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.social{
+  margin-top: 100px;
+  margin-left: 25px;
+  padding: 25px;
+  border-color: grey;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h4{
+  text-align: center;
+}
+#icons{
+  text-align: center;
+}
+.card-img{
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#email{
+  height: 10vh;
+  background-color: indigo;
+  max-width: 50%;
+  border-radius: 5vh;
+  text-align: center;
+  color: white;
+  padding-top: 2.5vh;
+  font-size: 20px;
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: 75px;
+  cursor: pointer;
+}
+#footer{
+  background-color: #000000;
+  width: 100vw;
+  height: 10vh;
+  margin:auto;
+  text-align: center;
+  padding-top: 3vh;
+  color: azure;
+  font-size: 15px;
+}
+.name .container .row .col-4{
+  text-align: center;
+  padding: 20px;
+}
+.name .container .row .col-4 img{
+  height: 10vh;
+} 
+.three{
+  border-radius: 75px;
+  margin-top: 20px;
+}
+#react{
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+  @media screen and (max-width: 768px) {
+    h2{
+      font-size: 40px !important;
+      padding-left: 20px !important;
+    }
+    
+    .nav-item{
+      padding: 10px;
+      font-size: 21px;
+    }
+    .navbar-toggler{
+      border-width: 0px;
+    }
+    .navbar-brand{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 25px;
+    }
+    .name .container .row .col-4 img{
+      height: 5vh;
+    } 
+    #dp{
+      margin-left: 10%;
+    }
+    .para{
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+    #skill .col-sm{
+      padding-left:60px;
+      margin-top: 50px;
+    }
+    .social{
+      margin-top: 50px;
+      margin-left: 0px;
+      text-align: center;
+      position: relative;
+    }
+    #icons{
+      
+      text-align: center;
+    }
+    .card-img{
+      width: 60px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 15px;
+    }
+    #email{
+      height: 10vh;
+      background-color: indigo;
+      width: 50%;
+      border-radius: 5vh;
+      text-align: center;
+      color: white;
+      padding-top: 3vh;
+      font-size: 20px;
+      -ms-transform: translate(40%, -50%);
+      transform: translate(40%, -50%);
+      cursor: pointer;
+      margin-left: unset;
+      margin-right: unset;
+      position: absolute;
+    }
+  }
+  
