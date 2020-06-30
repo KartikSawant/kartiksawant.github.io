@@ -43,7 +43,7 @@ ScrollReveal().reveal('#ps',slideRight);
 ScrollReveal().reveal('#dp',slideLeft);
 ScrollReveal().reveal('#f1',slideF);
 ScrollReveal().reveal('.school .row',slideUp);
-ScrollReveal().reveal('#skill .row .col-sm',slideLeft);
+ScrollReveal().reveal('#skill .row',slideLeft);
 ScrollReveal().reveal('#link',slideUp);
 ScrollReveal().reveal('#git',slideDown);
 ScrollReveal().reveal('#insta',slideUp);
