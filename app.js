@@ -43,13 +43,12 @@ ScrollReveal().reveal('#ps',slideRight);
 ScrollReveal().reveal('#dp',slideLeft);
 ScrollReveal().reveal('#f1',slideF);
 ScrollReveal().reveal('.school .row',slideUp);
-ScrollReveal().reveal('#skill .row',slideLeft);
+ScrollReveal().reveal('#skill div',slideLeft);
 ScrollReveal().reveal('#link',slideUp);
 ScrollReveal().reveal('#git',slideDown);
 ScrollReveal().reveal('#insta',slideUp);
 ScrollReveal().reveal('#fb',slideDown);
 ScrollReveal().reveal('#twitter',slideUp);
-ScrollReveal().reveal('#email',slideUp);
 //nav
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";

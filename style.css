@@ -117,7 +117,6 @@ a:hover{
   color: indigo;
 }
 #about{
-  height: 100vh;
 }
 #resume{
   text-align: center;
@@ -154,8 +153,6 @@ h2{
   max-width: 85%;
 }
 #edu{
-  height: 100vh;
-  overflow: hidden;
 }
 .school{
   margin-left: 20px;
@@ -171,17 +168,14 @@ h2{
 .col-2{
   text-align: center;
 }
-#skill{
-  height: 100vh;
-}
 #skill .row .col{
   text-align: center;
-  border: 1px solid black;
   margin: 20px;
   border-radius: 5vh;
   height: 50px;
   line-height: 50px;
   cursor: pointer;
+  background-color: lightgrey;
 }
 #skill .row .col:hover{
   background-color: indigo;
@@ -194,6 +188,9 @@ h2{
 .card{
   margin: auto;
   margin-bottom: 50px;
+}
+.card img{
+  height: 200px;
 }
 .btn-primary,.btn-primary:hover{
   background-color: indigo;
